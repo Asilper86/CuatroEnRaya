@@ -14,7 +14,7 @@ class JugadorTest {
 	void constructorNombreValidoFichaValidaCreaJugadorCorrectamente(String nombre, Ficha colorFichas) {
 		Jugador jugador = new Jugador(nombre, colorFichas);
 		assertEquals(nombre, jugador.nombre());
-		assertEquals(colorFichas, jugador.colorFichas());
+		assertEquals(colorFichas, jugador.colorFicha());
 	}
 
 	@Test
